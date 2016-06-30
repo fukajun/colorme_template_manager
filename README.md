@@ -1,6 +1,13 @@
 ### Usage
 
+backup templates
+
 ```
-$ cd path/to/repository
-$ sh downloader.sh
+$ bundle exec ruby backup.rb <tempalte_no>
+```
+
+restore templates
+
+```
+$ bundle exec ruby restore.rb <tempalte_no>
 ```
